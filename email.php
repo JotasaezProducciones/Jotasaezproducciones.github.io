@@ -1,7 +1,7 @@
 <?php
 $to = 'jotasaezpro@gmail.com';
 $remite = $_POST['jcremite'];
-$subject = 'Kamillu Store : Aviso de pedido';
+$subject = 'Jotasaez Producciones : Solicitud de pedido';
 $jcitems = $_POST['jcitems'];
 $headers = 'X-Mailer: PHP/' . phpversion();
 mail($to, $subject, $jcitems, $headers);
